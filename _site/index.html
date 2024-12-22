@@ -78,7 +78,7 @@
               <span class="papertitle">Intent inference and communication methods in Human-robot collaboration</span>
                 </a>
                 <br>
-                <a href="https://scholar.google.com/citations?user=40WQ9NwAAAAJ&hl=en">Yachuan Hsu</a>,
+                <a href="https://scholar.google.com/citations?user=40WQ9NwAAAAJ&hl=en">Ya-Chuan Hsu</a>,
                 <strong>Mihir Kulkarni</strong>,
                 <a href="https://ebiyik.github.io/">Erdem Biyik</a>
         
@@ -92,25 +92,24 @@
               </td>
             </tr>
 
-
-            <tr onmouseout="cat3d_stop()" onmouseover="cat3d_start()">
+            <tr onmouseout="mapf_stop()" onmouseover="mapf_start()">
               <td style="padding:16px;width:20%;vertical-align:middle">
                 <div class="one">
-                  <div class="two" id='cat3d_image'><video  width=100% height=100% muted autoplay loop>
-                  <source src="images/ep_91.gif" type="video/mp4">
+                  <div class="two" id='mapf_image'><video  width=100% height=100% muted autoplay loop>
+                  <source src="images/MAPF.mp4" type="video/mp4">
                   Your browser does not support the video tag.
                   </video></div>
-                  <img src='images/ep_91.gif' width="160">
+                  <img src='images/0.png' width="160">
                 </div>
                 <script type="text/javascript">
-                  function cat3d_start() {
-                    document.getElementById('cat3d_image').style.opacity = "1";
+                  function mapf_start() {
+                    document.getElementById('mapf_image').style.opacity = "1";
                   }
         
-                  function cat3d_stop() {
-                    document.getElementById('cat3d_image').style.opacity = "0";
+                  function mapf_stop() {
+                    document.getElementById('mapf_image').style.opacity = "0";
                   }
-                  cat3d_stop()
+                  mapf_stop()
                 </script>
               </td>
               <td style="padding:8px;width:80%;vertical-align:middle">
@@ -120,10 +119,6 @@
                 <a href="https://scholar.google.com/citations?user=b-_LL5oAAAAJ&hl=en">Merve Atasever</a>,
                 <strong>Mihir Kulkarni</strong>,
                 <a href="https://jdeshmukh.github.io/">Jyotirmoy Deshmukh</a>
-        
-                <!-- <br>
-                <em>NeurIPS</em>, 2024 &nbsp
-                <br> -->
                 <p></p>
                 <p>
                 This problem involves planning collision-free paths for multiple robots on 2D grid world. We are developing decentralized, learning-based solutions for this problem. 
@@ -132,18 +127,56 @@
             </tr>
 
 
+            <tr onmouseout="monopoly_stop()" onmouseover="monopoly_start()">
+              <td style="padding:16px;width:20%;vertical-align:middle">
+                <div class="one">
+                  <div class="two" id='monopoly_image'><video  width=100% height=100% muted autoplay loop>
+                  <source src="images/Monopoly3.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                  </video></div>
+                  <img src='images/static_monopoly.png' width="160">
+                </div>
+                <script type="text/javascript">
+                  function monopoly_start() {
+                    document.getElementById('monopoly_image').style.opacity = "1";
+                  }
+        
+                  function monopoly_stop() {
+                    document.getElementById('monopoly_image').style.opacity = "0";
+                  }
+                  monopoly_stop()
+                </script>
+              </td>
+              <td style="padding:8px;width:80%;vertical-align:middle">
+              <span class="papertitle">Monopoly++: Collaborative Monopoly using Deep Reinforcement Learning</span>
+                </a>
+                <br>
+                <strong> Mihir Kulkarni</strong>,
+                <a href="https://www.linkedin.com/in/prerana-shenoy-s-p/"> Prerana Shenoy</a>,
+                <a href="https://www.linkedin.com/in/anjali-masur/"> Anjali Masur</a>,
+                <a href="https://www.linkedin.com/in/deepayan-sur/"> Deepayan Sur </a>,
+                <a href="https://www.linkedin.com/in/shreya-koyande/"> Shreya Koyande</a>,
+                <a href="https://www.linkedin.com/in/salonipatadia/"> Saloni Patadia</a>
+                <br>
+                <br>
+                <a href="https://drive.google.com/file/d/1-Q0122zWpgA7gVviuqGfVT8R2O7eoPQw/view?usp=sharing">report</a>
+                /
+                <a href="https://github.com/deepayansur/CustomMonopoly">code</a>
+                <p></p>
+                <p>Competitive and Collaborative (mixed) environment for studying natural Multi-agent Collaboration in games.</p>
+              </td>
+            </tr>
             
-
             
-            <tr onmouseout="ever_stop()" onmouseover="ever_start()">
+            <!-- <tr onmouseout="ever_stop()" onmouseover="ever_start()">
               <td style="padding:20px;width:25%;vertical-align:middle">
                 <div class="one">
                   <div class="two" id='ever_image'>
-                    <img src='images/static_monopoly.png' width=100%>
+                    <img src='images/cat3d.mp4' width=100%>
                   </div>
                   <img src='images/static_monopoly.png' width=100%>
                 </div>
-                <!-- <script type="text/javascript">
+                <script type="text/javascript">
                   function ever_start() {
                     document.getElementById('ever_image').style.opacity = "1";
                   }
@@ -152,7 +185,7 @@
                     document.getElementById('ever_image').style.opacity = "0";
                   }
                   ever_stop()
-                </script> -->
+                </script>
               </td>
               <td style="padding:20px;width:75%;vertical-align:middle">
               <span class="papertitle">Monopoly++: Collaborative Monopoly using Deep Reinforcement Learning</span>
@@ -171,22 +204,19 @@
                 <a href="https://github.com/deepayansur/CustomMonopoly">code</a>
                 <p></p>
                 <p>Competitive and Collaborative (mixed) environment for studying natural Multi-agent Collaboration in games.</p>
-                <!-- <p>
-                Raytracing constant-density ellipsoids yields more accurate and flexible radiance fields than splatting Gaussians, and still runs in real-time.
-                </p> -->
               </td>
-            </tr>
+            </tr> -->
 
 
-    <tr onmouseout="ever_stop()" onmouseover="ever_start()">
+    <!-- <tr onmouseout="ever_stop()" onmouseover="ever_start()">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
           <div class="two" id='ever_image'>
-					  <img src='images/ObjectTracking.png' width=100%>
+					  <img src='images/nfl.mp4' width=100%>
 					</div>
-          <!-- <img src='images/ever_before.png' width=100%> -->
+          <img src='images/ObjectTracking.png' width=100%>
         </div>
-        <!-- <script type="text/javascript">
+        <script type="text/javascript">
           function ever_start() {
             document.getElementById('ever_image').style.opacity = "1";
           }
@@ -195,7 +225,7 @@
             document.getElementById('ever_image').style.opacity = "0";
           }
           ever_stop()
-        </script> -->
+        </script>
       </td>
       <td style="padding:20px;width:75%;vertical-align:middle">
 			<span class="papertitle">Multi-Object Tracking for Football</span>
@@ -208,11 +238,43 @@
         <a href="https://thelios.ai/wp-content/uploads/2024/10/nfl.mp4">video</a>
         <p></p>
         <p>Player Tracking for Football is hard with Monocular camera because objects are small, fast and occlusion-prone. Our novel approach solved this problem for our specific use-case</p>
-        <!-- <p>
-				Raytracing constant-density ellipsoids yields more accurate and flexible radiance fields than splatting Gaussians, and still runs in real-time.
-        </p> -->
       </td>
-    </tr>
+    </tr> -->
+
+
+        <tr onmouseout="nfl_stop()" onmouseover="nfl_start()">
+          <td style="padding:16px;width:20%;vertical-align:middle">
+            <div class="one">
+              <div class="two" id='nfl_image'><video  width=100% height=100% muted autoplay loop>
+              <source src="images/nfl.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+              </video></div>
+              <img src='images/ObjectTracking.png' width="160">
+            </div>
+            <script type="text/javascript">
+              function nfl_start() {
+                document.getElementById('nfl_image').style.opacity = "1";
+              }
+
+              function nfl_stop() {
+                document.getElementById('nfl_image').style.opacity = "0";
+              }
+              nfl_stop()
+            </script>
+          </td>
+          <td style="padding:20px;width:75%;vertical-align:middle">
+            <span class="papertitle">Multi-Object Tracking for Football</span>
+              </a>
+              <br>
+              <strong> Mihir Kulkarni</strong>,
+              <a href="https://scholar.google.com/citations?user=WtGUMy0AAAAJ&hl=en"> Sunil Kulkarni</a>
+              <br>
+              <br>
+              <a href="https://thelios.ai/wp-content/uploads/2024/10/nfl.mp4">video</a>
+              <p></p>
+              <p>Player Tracking with consistent tracks for Football is hard with Monocular camera because objects (players) appear small, fast and occlusion-prone. Our novel approach solved this problem for our specific use-case.</p>
+            </td>
+        </tr>
 
           <!-- </tbody></table> -->
 
